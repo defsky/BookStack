@@ -9,6 +9,7 @@ return [
     'recently_updated_pages' => '最新页面',
     'recently_created_chapters' => '最近创建的章节',
     'recently_created_books' => '最近创建的图书',
+    'recently_created_shelves' => '最近创建的书架',
     'recently_update' => '最近更新',
     'recently_viewed' => '最近查看',
     'recent_activity' => '近期活动',
@@ -70,6 +71,7 @@ return [
      * Shelves
      */
     'shelf' => '书架',
+    'x_shelves' => ':count 个书架',
     'shelves' => '书架',
     'shelves_long' => '书架',
     'shelves_empty' => '当前未创建书架',
@@ -104,7 +106,7 @@ return [
      */
     'book' => '图书',
     'books' => '图书',
-    'x_books' => ':count本书',
+    'x_books' => ':count 本书',
     'books_empty' => '不存在已创建的书',
     'books_popular' => '热门图书',
     'books_recent' => '最近的书',
@@ -133,6 +135,11 @@ return [
     'books_navigation' => '图书导航',
     'books_sort' => '排序图书内容',
     'books_sort_named' => '排序图书「:bookName」',
+    'books_sort_name' => '按名称排序',
+    'books_sort_created' => '按创建日期排序',
+    'books_sort_updated' => '按更新时间排序',
+    'books_sort_chapters_first' => 'Chapters First',
+    'books_sort_chapters_last' => 'Chapters Last',
     'books_sort_show_other' => '显示其他图书',
     'books_sort_save' => '保存新顺序',
 
@@ -141,7 +148,7 @@ return [
      */
     'chapter' => '章节',
     'chapters' => '章节',
-    'x_chapters' => ':count个章节',
+    'x_chapters' => ':count 个章节',
     'chapters_popular' => '热门章节',
     'chapters_new' => '新章节',
     'chapters_create' => '创建章节',
@@ -166,7 +173,7 @@ return [
      */
     'page' => '页面',
     'pages' => '页面',
-    'x_pages' => ':count个页面',
+    'x_pages' => ':count 个页面',
     'pages_popular' => '热门页面',
     'pages_new' => '新页面',
     'pages_attachments' => '附件',
@@ -214,6 +221,8 @@ return [
     'pages_revisions_created_by' => '创建者',
     'pages_revisions_date' => '修订日期',
     'pages_revisions_number' => '#',
+    'pages_revisions_numbered' => '修订号 #:id',
+    'pages_revisions_numbered_changes' => '修订#:id的内容',
     'pages_revisions_changelog' => '更新说明',
     'pages_revisions_changes' => '说明',
     'pages_revisions_current' => '当前版本',
@@ -283,6 +292,7 @@ return [
     'profile_not_created_pages' => ':userName尚未创建任何页面',
     'profile_not_created_chapters' => ':userName尚未创建任何章节',
     'profile_not_created_books' => ':userName尚未创建任何图书',
+    'profile_not_created_shelves' => ':userName尚未创建任何书架',
 
     /**
      * Comments
@@ -308,6 +318,7 @@ return [
      * Revision
      */
     'revision_delete_confirm' => '您确定要删除此修订版吗？',
+    'revision_restore_confirm' => '你确定要还原这个修订版吗? 当前页面的内容将会被替换.',
     'revision_delete_success' => '修订删除',
     'revision_cannot_delete_latest' => '无法删除最新版本。'
 ];

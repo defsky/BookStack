@@ -38,6 +38,7 @@ return [
     'filled'               => ':attribute 字段是必需的。',
     'exists'               => '选中的 :attribute 无效。',
     'image'                => ':attribute 必须是一个图片。',
+    'image_extension'      => ':attribute 必须有一个有效且被系统支持的图片扩展名。',
     'in'                   => '选中的 :attribute 无效。',
     'integer'              => ':attribute 必须是一个整数。',
     'ip'                   => ':attribute 必须是一个有效的IP地址。',
@@ -54,6 +55,7 @@ return [
         'string'  => ':attribute 至少为:min个字符。',
         'array'   => ':attribute 至少有:min项。',
     ],
+    'no_double_extension'  => ':attribute 只能有一个文件扩展名。',
     'not_in'               => '选中的 :attribute 无效。',
     'numeric'              => ':attribute 必须是一个数。',
     'regex'                => ':attribute 格式无效。',
@@ -74,6 +76,7 @@ return [
     'timezone'             => ':attribute 必须是有效的区域。',
     'unique'               => ':attribute 已经被使用。',
     'url'                  => ':attribute 格式无效。',
+    'uploaded'             => '文件不能上传, 服务器不接受这个体积的文件。',
 
     /*
     |--------------------------------------------------------------------------

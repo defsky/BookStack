@@ -32,6 +32,8 @@ return [
     'remember_me' => '记住我',
     'ldap_email_hint' => '请输入用于此帐户的电子邮件。',
     'create_account' => '创建账户',
+    'already_have_account' => '已经有账号了?',
+    'dont_have_account' => '还没有账号?',
     'social_login' => 'SNS登录',
     'social_registration' => 'SNS注册',
     'social_registration_text' => '其他服务注册/登录.',

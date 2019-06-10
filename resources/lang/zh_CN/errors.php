@@ -66,6 +66,7 @@ return [
     'role_cannot_be_edited' => '无法编辑该角色',
     'role_system_cannot_be_deleted' => '无法删除系统角色',
     'role_registration_default_cannot_delete' => '无法删除设置为默认注册的角色',
+    'role_cannot_remove_only_admin' => '这个用户是管理员角色的唯一用户。 取消唯一的管理员用户前，请先将管理员角色赋予给其它用户。',
 
     // Comments
     'comment_list' => '提取评论时出现错误。',
